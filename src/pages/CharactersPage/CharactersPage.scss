@@ -1,0 +1,92 @@
+.container{
+    
+    height: 89.1vh;
+}
+
+.characters{
+    width: 240px;
+}
+
+.characters h2{
+    font-size: 20px;
+    opacity: 0;
+    text-decoration: none;
+}
+
+.characters h2:hover {
+    opacity: 1;
+}
+.characters img{
+    width: 220px;
+    height: 320px;
+    object-fit: cover;
+}
+
+.houses img{
+    width: 220px;
+    height: 320px;
+    object-fit: contain;
+}
+
+
+.container-characters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.columns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 97.7vh;
+  }
+  .columns ul{
+    padding: 0px;
+    list-style: none;
+    line-height: 50px;
+    font-size: 12px;
+    padding-bottom: 20px;
+  }
+  .detail-character-image{
+    width: 220px;
+    height: 320px;
+    object-fit: cover;
+  }
+
+  .detail-shield-image{
+    width: 160px;
+    height: 191.6px;
+    object-fit: cover;
+  }
+
+  .columns-info {
+    display: flex;
+    gap: 20px;
+
+    &-display{
+        display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+  }
+  
+  .house-detail-image{
+    width: 267px;
+  height: 320px;
+  object-fit: contain;
+}
+
+.back-button{
+    display: flex;
+    background-color: transparent;
+    color: white;
+}
+
+.columns-detail{
+    
+    width: 250px;
+}
+
+
+  
